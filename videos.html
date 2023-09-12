@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>复仇者联盟</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+
+</head>
+<body>
+    <!-- Page Loader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-film mr-2"></i>
+                目录
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link nav-link-1" href="index.html">漫威人物英雄</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-2 active" aria-current="page" href="videos.html">相关影视</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-3" href="about.html">漫威宇宙三大阶段介绍</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-4" href="contact.html">联系我们</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="tm-hero d-flex justify-content-center align-items-center" id="tm-video-container">
+        <video autoplay muted loop id="tm-video">
+            <source src="video/hero.mp4" type="video/mp4">
+        </video>  
+        <i id="tm-video-control-button" class="fas fa-pause"></i>
+        <form class="d-flex position-absolute tm-search-form">
+            <input class="form-control tm-search-input" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success tm-search-btn" type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+    </div>
+
+    <div class="container-fluid tm-container-content tm-mt-60">
+        <div class="row mb-4">
+            <h2 class="col-6 tm-text-primary">
+                漫威视频观影
+            </h2>
+            <div class="col-6 d-flex justify-content-end align-items-center">
+                <form action="" class="tm-text-primary">
+                    页 <input type="text" value="1" size="1" class="tm-input-paging tm-text-primary"> 共 50页
+                </form>
+            </div>
+        </div>
+        <div class="row tm-mb-90 tm-gallery">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/img-01.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>奇异博士</h2>
+                        <a href="video-detail.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span>2021年10月24日</span>
+                    <span>100,000 万次观看</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/img-02.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>绿巨人</h2>
+                        <a href="video-detail.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span>2021年10月3日</span>
+                    <span>96,100 万次观看</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/img-03.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>钢铁侠</h2>
+                        <a href="video-detail.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span>2021年10月7日</span>
+                    <span>103,460 万次观看</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/img-04.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>美国队长</h2>
+                        <a href="video-detail.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span>2021年10月23日</span>
+                    <span>102,460 万次观看</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/img-05.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>蜘蛛侠</h2>
+                        <a href="video-detail.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span>2021年10月22日</span>
+                    <span>80,460 万次观看</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/img-06.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>雷神</h2>
+                        <a href="video-detail.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span>2021年10月24日</span>
+                    <span>12,860 万次观看</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/img-07.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>惊奇队长</h2>
+                        <a href="video-detail.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span>2021年10月9日</span>
+                    <span>98,460 万次观看</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/img-08.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>冬兵</h2>
+                        <a href="video-detail.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span>2021年10月24日</span>
+                    <span>89,460 万次观看</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/img-09.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>蚁人</h2>
+                        <a href="video-detail.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span>2021年10月24日</span>
+                    <span>42,700 万次观看</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/img-10.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>鹰眼</h2>
+                        <a href="video-detail.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span>2021年10月29日</span>
+                    <span>42,402 万次播放量</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/img-11.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>黑豹</h2>
+                        <a href="video-detail.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span>2021年10月4日</span>
+                    <span>80,764 万次播放量</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/img-12.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>猎鹰</h2>
+                        <a href="video-detail.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span>2021年10月16日</span>
+                    <span>50,700 万次播放量</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/img-13.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>邪恶蜘蛛侠</h2>
+                        <a href="video-detail.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span>2021年10月14日</span>
+                    <span>107,510 万次播放量</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/img-14.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>毒液</h2>
+                        <a href="video-detail.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span>2021年11月14日</span>
+                    <span>101,006 万次播放量</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/img-15.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>黑寡妇</h2>
+                        <a href="video-detail.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span>2021年10月24日</span>
+                    <span>91,300 万次播放量</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/img-16.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>绯红女巫</h2>
+                        <a href="video-detail.html">View more</a>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span>2021年12月06日</span>
+                    <span>21,204 万次播放量</span>
+                </div>
+            </div>         
+        </div> <!-- row -->
+        <div class="row tm-mb-90">
+            <div class="col-12 d-flex justify-content-between align-items-center tm-paging-col">
+                <a href="javascript:void(0);" class="btn btn-primary tm-btn-prev mb-2 disabled">上一页</a>
+                <div class="tm-paging d-flex">
+                    <a href="javascript:void(0);" class="active tm-paging-link">1</a>
+                    <a href="javascript:void(0);" class="tm-paging-link">2</a>
+                    <a href="javascript:void(0);" class="tm-paging-link">3</a>
+                    <a href="javascript:void(0);" class="tm-paging-link">4</a>
+                </div>
+                <a href="javascript:void(0);" class="btn btn-primary tm-btn-next">下一页</a>
+            </div>            
+        </div>
+    </div> <!-- container-fluid, tm-container-content -->
+
+    <footer class="tm-bg-gray pt-5 pb-3 tm-text-gray tm-footer">
+        <div class="container-fluid tm-container-small">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12 px-5 mb-5">
+                    <h3 class="tm-text-primary mb-4 tm-footer-title">关于·目录</h3>
+                    <p>此网站是用于喜欢 <a rel="sponsored" href="https://www.baidu.com/s?tn=02003390_43_hao_pg&isource=infinity&iname=baidu&itype=web&ie=utf-8&wd=%E5%A4%8D%E4%BB%87%E8%80%85%E8%81%94%E7%9B%9F">复仇者联盟</a> 的粉丝更好的了解漫威宇宙的几个阶段以及介绍漫威宇宙的各个英雄人物在不同平行宇宙中或同时在一个宇宙中拯救地球的故事，而且此网站可以使得观影更便捷.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
+                    <h3 class="tm-text-primary mb-4 tm-footer-title">关于我们</h3>
+                    <ul class="tm-footer-links pl-0">
+                        <li><a href="#">简介</a></li>
+                        <li><a href="#">联系</a></li>
+                        <li><a href="#"></a>声明</li>
+                        <li><a href="#">留言</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
+                    <ul class="tm-social-links d-flex justify-content-end pl-0 mb-5">
+                        <li class="mb-2"><a href="https://facebook.com"><i class="fab fa-facebook"></i></a></li>
+                        <li class="mb-2"><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                        <li class="mb-2"><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
+                        <li class="mb-2"><a href="https://pinterest.com"><i class="fab fa-pinterest"></i></a></li>
+                    </ul>
+                    <a href="#" class="tm-text-gray text-right d-block mb-2">使用条款</a>
+                    <a href="#" class="tm-text-gray text-right d-block">隐私策略</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-7 col-12 px-5 mb-3">
+                    版权号v.2021.9.18复仇者联盟————便捷观影指南</p>
+                    CopyRight©2021.9.18 刘金伟 所有，并保留所有权利。
+                </div>
+                <div class="col-lg-4 col-md-5 col-12 px-5 text-right">
+                    Designed by <a href="https://templatemo.com" class="tm-text-gray" rel="sponsored" target="_parent">liujinwei</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/plugins.js"></script>
+    <script>
+        $(window).on("load", function() {
+            $('body').addClass('loaded');
+        });
+    </script>
+    
+    <script src="js/plugins.js"></script>
+    <script>
+        $(window).on("load", function() {
+            $('body').addClass('loaded');
+        });
+
+        $(function(){
+            /************** Video background *********/
+
+            function setVideoSize() {
+                const vidWidth = 1280;
+                const vidHeight = 720;
+                const maxVidHeight = 400;
+                let windowWidth = window.innerWidth;
+                let newVidWidth = windowWidth;
+                let newVidHeight = windowWidth * vidHeight / vidWidth;
+                let marginLeft = 0;
+                let marginTop = 0;
+            
+                if (newVidHeight < maxVidHeight) {
+                    newVidHeight = maxVidHeight;
+                    newVidWidth = newVidHeight * vidWidth / vidHeight;
+                }
+            
+                if(newVidWidth > windowWidth) {
+                    marginLeft = -((newVidWidth - windowWidth) / 2);
+                }
+            
+                if(newVidHeight > maxVidHeight) {
+                    marginTop = -((newVidHeight - $('#tm-video-container').height()) / 2);
+                }
+            
+                const tmVideo = $('#tm-video');
+            
+                tmVideo.css('width', newVidWidth);
+                tmVideo.css('height', newVidHeight);
+                tmVideo.css('margin-left', marginLeft);
+                tmVideo.css('margin-top', marginTop);
+            }
+
+            setVideoSize();
+
+            // Set video background size based on window size
+            let timeout;
+            window.onresize = function () {
+                clearTimeout(timeout);
+                timeout = setTimeout(setVideoSize, 100);
+            };
+
+            // Play/Pause button for video background      
+            const btn = $("#tm-video-control-button");
+
+            btn.on("click", function (e) {
+                const video = document.getElementById("tm-video");
+                $(this).removeClass();
+
+                if (video.paused) {
+                    video.play();
+                    $(this).addClass("fas fa-pause");
+                } else {
+                    video.pause();
+                    $(this).addClass("fas fa-play");
+                }
+            });
+        });
+    </script>
+</body>
+</html>
